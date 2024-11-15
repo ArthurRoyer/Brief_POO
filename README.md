@@ -97,14 +97,6 @@ Nourrissez les animaux selon leur régime alimentaire :
 
 ---
 
-### **Améliorations possibles**
-1. Ajouter des événements aléatoires (catastrophes naturelles, migrations).
-2. Introduire de nouvelles espèces d’animaux avec des comportements uniques.
-3. Permettre aux animaux de migrer entre territoires.
-4. Ajouter une interface utilisateur graphique.
-
----
-
 ## **Auteur**
 Projet développé par **Arthur ROYER**.
 
