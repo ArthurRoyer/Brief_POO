@@ -52,3 +52,67 @@ Nourrissez les animaux selon leur régime alimentaire :
 2. Exécutez le fichier principal avec :
    ```bash
    python arctic_ecosystem.py
+
+## **Structure du projet**
+
+### **Fichier principal**
+- `arctic_ecosystem.py` : Fichier contenant tout le code source.
+
+---
+
+### **Classes principales**
+
+#### **Animal** : Classe de base pour les animaux.
+- **Attributs** :
+  - `nom`
+  - `espece`
+  - `regime_alimentaire`
+- **Méthodes** :
+  - `nourrir(nourriture)` : Permet de nourrir l’animal.
+  - `est_predateur()` : Retourne si l’animal est un prédateur.
+  - `proie_admissible(autre_animal)` : Vérifie si un animal peut être une proie.
+
+#### **Sous-classes spécifiques**
+- `Loup_arctique`
+- `Boeuf_musqué`
+- `Ours_polaire`
+- `Lemming_arctique`
+- `Renard_arctique`
+
+---
+
+#### **Territoire** : Gère les animaux présents dans un territoire.
+- **Méthodes** :
+  - `ajouter_animal(animal)` : Ajoute un animal au territoire.
+  - `lister_animaux()` : Affiche les animaux présents.
+  - `chasser()` : Simule les relations prédateur-proie.
+
+---
+
+#### **Ecosysteme** : Gère l'ensemble des territoires.
+- **Méthodes** :
+  - `ajouter_territoire(territoire)` : Ajoute un territoire.
+  - `compter_territoires()` : Retourne le nombre de territoires.
+  - `afficher_territoires()` : Affiche les territoires et leurs animaux.
+
+---
+
+### **Améliorations possibles**
+1. Ajouter des événements aléatoires (catastrophes naturelles, migrations).
+2. Introduire de nouvelles espèces d’animaux avec des comportements uniques.
+3. Permettre aux animaux de migrer entre territoires.
+4. Ajouter une interface utilisateur graphique.
+
+---
+
+## **Auteur**
+Projet développé par **Arthur ROYER**.
+
+---
+
+## **Licence**
+Ce projet est sous licence MIT. Vous êtes libre de l’utiliser, le modifier et le distribuer.
+
+---
+
+Bon amusement dans votre exploration de l’écosystème arctique ! 🐾❄️
